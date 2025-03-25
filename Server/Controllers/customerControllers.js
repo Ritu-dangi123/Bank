@@ -29,13 +29,13 @@ const registration = async(req,res) =>{
      const transporter = nodemailer.createTransport({
         service: "gmail",
         auth: {
-          user: "himanshudinkar43@gmail.com",  
-          pass: "kzut ydgq yphh ersm", 
+          user: "dangiritu270@gmail.com",  
+          pass: "sbhv lann sehs duac", 
         },
       });
 
       let maildetails = {
-        from : "himanshudinkar43@gmail.com",
+        from : "dangiritu270@gmail.com",
         to : email,
         subject : "E-Banking registration",
         text : `Dear ${fname} ${lname} Your account successfully created \n Your Password is ${Mypass}`
