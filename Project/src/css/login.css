@@ -1,0 +1,87 @@
+/* General Styles */
+.login {
+    text-align: center;
+    /* margin-bottom: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.login h1 {
+    font-size: 45px;
+    color: #222;
+}
+
+.registerform {
+    width: 100%;
+    max-width: 400px;
+    background: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formedit {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.formedit .form-group {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.formedit label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: white;
+}
+
+.formedit input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #444;
+    color: white;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+    .login h1 {
+        font-size: 35px;
+    }
+
+    .registerform {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .formedit input {
+        padding: 8px;
+    }
+}

@@ -1,0 +1,374 @@
+.linking{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.body{
+    background-color: #263238;
+    padding: 40px;
+    /* height: 100vh;
+    width: 100%; */
+    background: url("/public/bank-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.home{
+    background-image: url("/public/download\ \(1\)-overlay.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    overflow: hidden;
+}
+
+
+.atm{
+    background-image: url("/public/Untitled\ design\ \(1\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+   
+}
+
+
+
+
+
+
+.registerform{
+     background-image: url("/public/rgimg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    /* margin-top: 50px; */
+  
+
+}
+
+
+
+
+/* footear */
+#mainfootear{
+    width: 100vw;
+    height: 250px;
+    background-color: rgba(237, 18, 18, 0.558);
+}
+#footear{
+ 
+    margin-bottom: 19px;
+    display: flex;
+   margin-left: 30px;
+}
+#footear h1{
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#email{
+    display: flex;
+    flex-direction: row;
+     justify-content:end;
+    gap: 50px;
+   
+}
+
+#E{
+  width: 380px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.884);
+  margin-top: 20px;
+  margin-left: 400px;
+  padding-left: 19px;
+  border-radius: 4px;
+  padding-top: 5px;
+}
+#s{
+
+    width: 200px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.884);
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    /* margin-left: 200px; */
+    border-radius: 4px;
+
+}
+#E h4{
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+#s h4{
+
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+
+
+/* footear */
+
+#mainf{
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background:black;
+    color: white;
+    padding: 40px 20px;
+    padding-top: 60px;
+}
+#ficons{
+    display: flex;
+    color: white;
+    gap: 25px;
+    
+}
+#cc1 h5{
+    margin-top: 20px;
+   
+}
+#ficons{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#ft1{
+    width: 300px;
+    height: 50px;
+    background: #d1cccc;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+#ft2{
+    width: 300px;
+    height: 50px;
+    background: #d1cccc;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+#ft1 h4{
+    color: crimson;
+    padding-left:110px ;
+    padding-top: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  
+}
+#ft2 h4{
+    color: crimson;
+    padding-left:110px ;
+    padding-top: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  
+}
+#fb{
+  
+    margin-top: 40px;
+    padding-left:100px ;
+}
+/* balance-inquery */
+/* .balance_inquery{
+    background:rgb(184, 45, 73);
+    color: white;
+    width: 600px;
+    margin-top: 80px;
+
+} */
+.mini{
+    background:rgb(242, 231, 231);
+}
+
+.resets{
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background:rgb(184, 45, 73);
+    width: 500px;
+    height: 500px;
+    margin-left: 500px;
+    margin-top: 30px;
+    border-radius: 6px;
+    box-shadow: rgba(205, 197, 197, 0.24) 0px 3px 8px;
+
+}
+
+.resetsp{
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.mimi3{
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background:rgb(184, 45, 73);
+    color: black;
+    width: 500px;
+    height: 500px;
+    margin-left: 500px;
+    margin-top: 30px;
+    border-radius: 6px;
+    box-shadow: rgba(205, 197, 197, 0.24) 0px 3px 8px;
+
+
+}
+.mini4{
+    text-align: center;
+}
+.mini5{
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 370px;
+    height: 400px;
+    background:rgb(184, 45, 73);
+    margin-left: 500px;
+    margin-top: 30px;
+
+}
+.mini6{
+    text-align: center;
+}
+.withdraw1{
+    background:rgb(184, 45, 73);
+    width: 550px;
+    height: 300px;
+    color: black;
+
+}
+.withdraw1 button{
+    margin-top: 95px;
+    background-color: black;
+    color: white;
+}
+.subcase{
+    background:rgb(184, 45, 73);
+    width: 500px;
+    height: 250px;
+    color: black;
+}
+.subcase button{
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+}
+#dashnavbar{
+    
+    background:rgb(184, 45, 73);
+    color: black;
+
+}
+.linkdash{
+    color: white;
+}
+
+
+.ac{
+    background:rgb(184, 45, 73);
+    margin-left: 500px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 768px){
+    .formedit{
+        width: 90%;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .homecontent h1 {
+        font-size: 40px;
+    }
+
+    .homecontent {
+        padding: 40px 20px;
+    }
+
+    .resets,
+    .mimi3,
+    .mini5,
+    .subcase,
+    .withdraw1,
+    .ac {
+        width: 90%;
+        margin: 30px auto;
+    }
+}
+
+
+@media (max-width: 480px){
+    .content2 h1 {
+        font-size: 28px;
+    }
+
+    #boxes{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #box1,
+    #box2{
+        width: 90%;
+    }
+
+    #email {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #E,
+    #s {
+        width: 90%;
+        margin: 0;
+    }
+
+    #mainf{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    #ft1,
+    #ft2 {
+        width: 90%;
+    }
+
+    .homecontent Button {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+}
+
+.px-3{
+    color: rgb(243, 39, 80);
+}
+
+
+
+
+
+
+

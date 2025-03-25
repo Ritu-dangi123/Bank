@@ -1,0 +1,87 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Footer styles */
+#footer {
+    background: #222;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+/* Subscribe section */
+.subscribe-container {
+    background: #444;
+    padding: 15px;
+    text-align: center;
+}
+
+.subscribe-container input {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.subscribe-container button {
+    padding: 10px 15px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    #footer {
+        flex-wrap: wrap;
+    }
+    .footer-section {
+        min-width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    #footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-section {
+        min-width: 100%;
+    }
+    .subscribe-container input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .subscribe-container button {
+        width: 100%;
+    }
+}

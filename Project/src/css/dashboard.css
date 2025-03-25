@@ -1,0 +1,110 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: rgba(237, 18, 18, 0.558);
+  }
+  
+  .top-navbar {
+    background: rgba(20, 20, 20, 0.9);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .profile-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .profile-img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+  
+  .logout-btn {
+    color: white;
+    cursor: pointer;
+  }
+  
+  .main-content {
+    display: flex;
+    flex: 1;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .sidebar .linkingdash {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+  }
+  
+  .sidebar .linkingdash:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .content-area {
+    flex: 1;
+    padding: 20px;
+    background: white;
+    overflow-y: auto;
+  }
+  
+  /* Responsive CSS */
+  @media (max-width: 992px) {
+    .dashboard-container {
+      flex-direction: column;
+    }
+  
+    .main-content {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  
+    .content-area {
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .top-navbar {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .profile-section {
+      flex-direction: column;
+      gap: 5px;
+    }
+  
+    .sidebar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .sidebar .linkingdash {
+      padding: 8px;
+      text-align: center;
+    }
+  }
+  
