@@ -1,3 +1,3 @@
-const BASE_URL = "https://bank-vbyy.onrender.com";
+const BASE_URL = "https://metrobank.onrender.com";
 
 export default BASE_URL;
